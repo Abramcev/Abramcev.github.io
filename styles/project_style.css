@@ -1,0 +1,143 @@
+.menu_ul { /* Сбрасываем стили браузера по умолчанию для элементов навигации */ 
+	list-style: none; /* Убираем маркеры списка */
+	margin: 0; /* Убираем верхнее и нижнее поле, равное 1em */
+	padding-left: 0; /* Убираем левый отступ, равный 40px */
+    display: flex; /* Делаем список ul гибким контейнером, в результате элементы списка распологаются горизонтально */
+	position:relative;         /* Нужно для центрирования меню, построенного на ul */
+	float:none!important;      /* Нужно для центрирования меню, построенного на ul */
+	float:left;                /* Нужно для центрирования меню, построенного на ul */
+	right:-50%;                /* Нужно для центрирования меню, построенного на ul */
+	background-color: rgba( 0, 0, 0, 0.5);
+	border-radius: 10px;
+	height: 70px;
+}
+
+.menu_nav {
+	position:relative;         /* Нужно для центрирования меню, построенного на ul */
+	float:right;               /* Нужно для центрирования меню, построенного на ul */
+	right:50%;                 /* Нужно для центрирования меню, построенного на ul */
+	width:auto;                /* Нужно для центрирования меню, построенного на ul */
+}
+
+.menu_a {
+	text-decoration: none; /* Убираем подчеркивание текста ссылок */
+	display: block; /* Делает элемент блочным */
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 200%;
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #D4FF28;
+	border-radius: 10px;
+	-moz-transition: all 0.9s 0.09s ease;    /* Нужен для плавного перехода при наведении */
+    -o-transition: all 0.9s 0.09s ease;      /* Нужен для плавного перехода при наведении */
+    -webkit-transition: all 0.3s 0.01s ease; /* Нужен для плавного перехода при наведении */
+	border: 3px solid rgba( 55, 168, 202, 0.0);
+	background-color: rgba( 0, 0, 0, 0.0);
+}
+
+.menu_a:hover {
+	background-color: rgba( 0, 0, 0, 0.7);
+	border: 3px solid rgba( 212, 255, 40, 0.5);
+	font-size: 210%;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+.large-header {
+	widht: 100%; /* Ширина - 100% от экрана */
+	background-image: url(../images/1.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: rgba( 0, 0, 0, 0.1);
+    height: 500px;
+	border-bottom: 5px solid #D4FF28;
+	border-radius: 15px;
+}
+
+body {
+	background-image: url(../images/background3.jpg);
+}
+
+.menu-left {
+	background-color: rgba( 0, 0, 0, 0.3);
+	width: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	border-radius: 15px;
+	border-bottom: 5px solid #D4FF28;
+	border-top: 5px solid #D4FF28;
+	margin-top: 20px;
+	display: inline-block;
+	float: left; /* Привязать к левому краю */
+}
+
+.menu_ul2 {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.menu_a2 {
+	text-decoration: none;
+	color: #D4FF28;
+	margin-right: 20px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	border: 3px solid rgba( 212, 255, 40, 0.0);
+	font-size: 140%;
+	border-radius: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-moz-transition: all 0.9s 0.09s ease;    /* Нужен для плавного перехода при наведении */
+    -o-transition: all 0.9s 0.09s ease;      /* Нужен для плавного перехода при наведении */
+    -webkit-transition: all 0.3s 0.01s ease; /* Нужен для плавного перехода при наведении */
+}
+
+.menu_a2:hover {
+    background-color: rgba( 0, 0, 0, 0.7);
+	border: 3px solid rgba( 212, 255, 40, 0.5);
+}
+
+.content {
+	background-color: rgba( 0, 0, 0, 0.3);
+	display: inline-block;
+	width: 75%;
+	margin-left: 45px;
+	margin-top: 20px;
+	padding-bottom: 1000px;
+	padding-top: 40px;
+	padding-left: 10px;
+	border-radius: 15px;
+	border-bottom: 5px solid #D4FF28;
+	border-top: 5px solid #D4FF28;
+	text-align:center;
+}
+
+.menu_ul2 li {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: rgba( 0, 0, 0, 1.0);
+	width: auto;
+	height: auto;
+	color: #ffffff;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+/**/
